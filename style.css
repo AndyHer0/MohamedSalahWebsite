@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+  width: 85%;
+  background-color: #19181b;
+  color: #fff;
+  margin: auto;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 10px;
+  margin: 25px;
+  text-align: center;
+  margin-top: -15px;
+  background-color: #080b11;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.125);
+  width: auto;
+}
+
+
+
+h2 {
+  font-size: 35px;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #b30000;
+  padding: 15px;
+  margin-left: 10px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.125);
+  width: auto;
+  display: inline;
+  text-decoration: bold;
+}
+
+
+a {
+  color: #ffffff;
+}
+
+.navitem {
+  text-underline-offset: 10000px;
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  background: #ff4000;
+  width: auto;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  -webkit-transition-duration: 0.3s;
+  z-index: -1;
+}
+
+li {
+  font-size: 30px;
+}
+
+
+img {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+nav {
+  padding: 15px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  background-color: #3d3a40;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.125);
+}
+
+.navitem:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -webkit-background-color: #cc0000;
+  background-color: #cc0000;
+  cursor: pointer;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin: 0px;
+}
+
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  font-style: bold;
+  background-color: #715050;
+  padding: 15px;
+  border-radius: 15px;
+  transition-duration: 0.3s;
+}
+
+h3:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -webkit-background-color: #1c1b1d;
+  background-color: #1c1b1d;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: auto;
+  text-decoration: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
+.navitem:hover .dropdown-content {
+  display: block;
+  position: absolute;
+}
